@@ -467,7 +467,7 @@
       NerveDamage: 0
 
 - type: entity
-  parent: ClothingEyesBase
+  parent: ClothingEyesGlassesSecurity
   id: ClothingEyesGlassesNoir
   name: noir-tech glasses
   description: A pair of glasses that simulate what the world looked like before the invention of color.
@@ -476,11 +476,6 @@
     sprite: Clothing/Eyes/Glasses/noir.rsi
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/sunglasses.rsi
-  - type: IdentityBlocker
-    coverage: EYES
-  - type: FlashImmunity
-  - type: EyeProtection
-    protectionTime: 5
   - type: NoirOverlay
   - type: Tag
     tags:
