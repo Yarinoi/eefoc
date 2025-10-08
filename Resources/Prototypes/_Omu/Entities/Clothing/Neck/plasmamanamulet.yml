@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: WizardPlasmamanAmulet
+  name: Amulet of Oxygen Immunity
+  description: A legendary artifact, a golden amulet with a glowing purple gem in its center, purported to make the wielder immune to the dangers of oxygen.
+  components:
+  - type: Envirohelm
+  - type: PlasmamanSafe
+  - type: IgniteFromGasImmunity
+    parts: 
+    - Head
+    - Chest
+    - Groin
+    - LeftArm
+    - RightArm
+    - LeftLeg
+    - RightLeg
+    - LeftFoot
+    - RightFoot
+  - OnEquip:
+    - type: BreathingImmunity
+  //i will make a sprite l8r
