@@ -4,8 +4,9 @@
   name: Amulet of Oxygen Immunity
   description: A legendary artifact, a golden amulet with a glowing purple gem in its center, purported to make the wielder immune to the dangers of oxygen.
   components:
-  - type: Envirohelm
-  - type: PlasmamanSafe
+  - tags:
+    - PlasmamanSafe
+    - Envirohelm
   - type: IgniteFromGasImmunity
     parts: 
     - Head
@@ -13,6 +14,8 @@
     - Groin
     - LeftArm
     - RightArm
+    - LeftHand
+    - RightHand
     - LeftLeg
     - RightLeg
     - LeftFoot
